@@ -1,0 +1,32 @@
+.Footer{
+    background-color: #F8FAFB;
+}
+.FooterSection{
+
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #808080;
+    margin-bottom: 5rem;
+}
+.about, .recipesItems > div, .contactLinksItems > div, .socialLinksItems > div{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.about, .recipes, .contactLinks, .socialLinks{
+    margin-top: 5rem;
+}
+.bottomFooter{
+    padding: 20px;
+    border-top: 3px solid #fefefe;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #808080;
+}

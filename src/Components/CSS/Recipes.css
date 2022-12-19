@@ -1,0 +1,38 @@
+.recipeContainer{
+    margin: 5rem 9rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.TabContainer{
+    display: flex;
+    justify-content: center;
+}
+.Tab-Section{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4.5rem;
+    border: 0.5px solid black;
+    padding: 20px;
+    border-radius: 50px;
+
+
+}
+.tabs{
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    
+}
+.active{
+    border-bottom: 1px solid black;
+}
+.foodSection{
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: 350px 350px 350px; */
+    grid-template-columns: 350px 350px auto;
+}

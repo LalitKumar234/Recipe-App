@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@400&display=swap');
+
+.NavContainer{
+    margin: 1rem 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navMenu{
+    display: flex;
+    flex-direction: row;
+}
+.menu-items{
+    margin: 1rem 2.5rem;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}

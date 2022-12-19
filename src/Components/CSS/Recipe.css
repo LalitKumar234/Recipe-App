@@ -1,0 +1,54 @@
+.recipe-Container{
+    margin: 5rem 9rem;
+}
+.mealRecipe{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.mealThumbIngredients{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.mealThumbButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mealThumb{
+    width: 500px;
+    border-radius: 45px;
+}
+.mealThumbButton > button{
+    width: 200px;
+    margin-top: 3rem;
+    background-color: #EA4C89;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    margin: 5px;
+}
+.ingredients{
+    width: 500px;
+}
+.ingredientsList{
+    display: flex;
+    flex-direction: column;
+}
+.ingredientsList > li{
+    list-style: none;
+    margin-left: -2.5rem;
+}
+.recipeInstruction{
+    margin-top: 5rem;
+}
