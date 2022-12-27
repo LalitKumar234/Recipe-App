@@ -11,7 +11,9 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-live app https://genuine-choux-07e01d.netlify.app/
+Live app: https://genuine-choux-07e01d.netlify.app/
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/64685787/209615873-795fa169-43af-48ef-bcdc-9735e085f70b.png">
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
